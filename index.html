@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Гороскоп</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+   <div class="container" id="allContent">
+      <div class="header">
+         <div class="header__logo">Самый настоящий гороскоп</div>
+      </div>
+      <div class="main">
+         <div class="text">
+            Этот гороскоп составляется по определенной методике, основанной на геометрических построениях и
+            математических расчетах. Для конкретного момента времени (это может быть любая дата) мой алгоритм вычисляет
+            положение небесных тел, также он использует географические координаты события.
+         </div>
+         <div class="inputs">
+            <label class="label">Введите ваше имя</label>
+            <input class="name" id="input1" placeholder="Денчик" type="text">
+            <button id="button">Отправить</button>
+         </div>
+      </div>
+   </div>
+   <div class="confirm-container" id="confirm-container">
+      <h1>Ваше предсказание</h1>
+      <div class="text-container" id="text-container">
+         <p class="answer" id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur illum
+            quod
+            alias qui!
+            Perferendis
+            aliquid est enim natus maiores similique, voluptas, nesciunt quo modi repellat maxime error cupiditate id?
+         </p>
+      </div>
+      <p class="thanks">Спасибо, что воспользовались моим сайтом. Хотите ли вы поддержать проект?</p>
+      <button id="confirmButton1">Да, хочу</button>
+      <button id="confirmButton2">Поддержать</button>
+   </div>
+   <div class="sup" id="support">
+      <h1 class="suptext">Спасибо за поддержку, в ближайшее время с вашего счета спишется 400 рублей.</h1>
+   </div>
+
+   <script src="code/code.js"></script>
+</body>
+
+</html>
