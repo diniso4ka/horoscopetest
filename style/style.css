@@ -103,6 +103,11 @@ button:hover {
 	border-color: #3CB371;
 }
 
+a:hover {
+	background-color: #3CB371	;
+	border-color: #3CB371;
+}
+
 .confirm-container {
 	visibility: hidden;
 }
